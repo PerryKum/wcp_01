@@ -1,0 +1,26 @@
+<!--pages/shows1/shows1.wxml-->
+<view class="shows_contaner">
+  <view class="swiper_container">
+    <swiper class="show_swiper" indicator-dots="true" duration="300" easing-function="linear" loop="true">
+      <swiper-item>
+        <image src="/pages/shows2/src/img1.jpg" style="width: 100%; height: 100%;"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/pages/shows2/src/img2.jpg" style="width: 100%; height: 100%;"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/pages/shows2/src/img3.jpg" style="width: 100%; height: 100%;"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="title">李家瞳村</view>
+  <view class="details">
+    <view class="details_title">详情</view>
+    <view class="line"></view>
+    <view class="details_info">据民间传说，唐初李世民清扫隋朝残匪途径这里，曾在山脚下“阅兵点将”赐村名李家疃。随后王氏家族在此定居发展，因流行有吸毒赌博的恶习村落开始衰败，村中以经商务农维持村中发展，随着改革开放村落经济实现飞速发展，村民生活得到改善。</view>
+  </view>
+  <view class="copyright">
+    <view class="line"></view>
+    <view class="producer">Produced by Perry Kum</view>
+  </view>
+</view>

@@ -1,0 +1,28 @@
+<!--pages/lxrd1/lxrd1.wxml-->
+<view class="shows_contaner">
+  <view class="rtcl_info">
+    <view class="rtcl_title">智秧社 · 韩家窝村</view>
+    <view class="rtcl_title_sm">果蔬采摘园</view>
+    <image class="img" src="/pages/lxrd1/src/img1.jpg" mode="widthFix"></image>
+    <view class="rtcl_title_sm">恬静天鹅池</view>
+    <image class="img" src="/pages/lxrd1/src/img2.jpg" mode="widthFix"></image>
+    <view class="rtcl_title_sm">韩家大院</view>
+    <image class="img" src="/pages/lxrd1/src/img3.jpg" mode="widthFix" style="margin-bottom: 0;"></image>
+    <image class="img" src="/pages/lxrd1/src/img4.jpg" mode="widthFix" style="margin-top: 0;"></image>
+    <view class="rtcl_title_sm">淄博 · 韩家窝</view>
+    <view class="rtcl_text">韩家窝村明前建村，旧属淄川县，现属淄博市周村区南郊镇，始称“阿里”。韩姓于明洪武年间迁入，繁衍生息，人口渐多，遂沿称韩家阿，至上世纪五十年代，讹称为“韩家窝”。</view>
+    <view class="rtcl_title_sm">韩家窝 · 特色民宿</view>
+    <view class="rtcl_text">韩家窝村依据本村特色，依傍荷花池、墨水河等开设具有乡村民宿民风特色的民宿，带给游客不一样的体验，尽享静谧、舒适的乡村生活。</view>
+    <image class="img" src="/pages/lxrd1/src/img5.jpg" mode="widthFix" style="margin-top: 0;"></image>
+    <view class="rtcl_title_sm">韩家窝 · 生态竹林</view>
+    <view class="rtcl_text">清风徐徐，竹香阵阵。茂密竹林与农家土鸡养殖相配，尽享原生态的健康有机生活。竹林中隐藏特色竹林小屋，打开窗户即可感受沁心竹气。</view>
+    <image class="img" src="/pages/lxrd1/src/img6.jpg" mode="widthFix" style="margin-top: 0;"></image>
+    <view class="rtcl_title_sm">韩家窝 · 荷花池&墨水壶</view>
+    <view class="rtcl_text">荷花苞挺立于扇大荷叶之中，尽显“碧荷生幽泉，朝日艳且鲜”。特色建筑墨水壶浮于荷塘之上，形成一道特色景观。</view>
+    <image class="img" src="/pages/lxrd1/src/img7.jpg" mode="widthFix" style="margin-top: 0;"></image>
+  </view>
+</view>
+<view class="copyright">
+  <view class="line"></view>
+  <view class="producer">Produced by Perry Kum</view>
+</view>

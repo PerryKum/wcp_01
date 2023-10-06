@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shows1/shows1",
+    "pages/shows2/shows2",
+    "pages/lxrd1/lxrd1",
+    "pages/lyzx1/lyzx1",
+    "pages/destination/destination"
+  ],
+  "usingComponents": {},
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "探索",
+        "iconPath": "/icons/house.jpg",
+        "selectedIconPath": "/icons/house_active.jpg"
+      },
+      {
+        "pagePath": "pages/destination/destination",
+        "text": "目的地",
+        "iconPath": "/icons/destination.jpg",
+        "selectedIconPath": "/icons/destination_active.jpg"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f6f6f6",
+    "backgroundColor": "#f6f6f6",
+    "navigationBarTitleText": "智秧乡旅",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

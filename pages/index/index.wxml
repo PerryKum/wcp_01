@@ -1,0 +1,69 @@
+<!--pages/index/index.wxml-->
+<view class="container_main" style="height: 0;">
+  <image class="cover" src="/pages/index/src/img1.jpg"></image>
+  <view class="note">
+    <view class="note_title">
+      <view class="note_svg"></view>山东 · 淄博
+    </view>
+    <view class="note_content">山东省淄博市不仅有“小饼夹肉”的特色烧烤文化，更有风格迥异的特色美丽乡村带你走进不一样的淄博。秀润的出水芙蓉、清新的山间竹林、各色的清朝旧居......等待您来探索。</view>
+  </view>
+  <view class="shows">
+    <image class="shows_item" src="/pages/index/src/show1.jpg"></image>
+    <image class="shows_item" src="/pages/index/src/show2.jpg"></image>
+  </view>
+  <view class="travel">
+    <text class="travel_title">旅游</text>
+    <text class="travel_title_more" bind:tap="toDes">更多推荐</text>
+    <view class="travel_item_container">
+      <view class="travel_item" bind:tap="toShow1">
+        <view class="travel_item_info">韩家窝村</view>
+        <image class="travel_item_img" src="/pages/index/src/travel1_cover.jpg"></image>
+      </view>
+      <view class="travel_item" bind:tap="toShow2">
+        <view class="travel_item_info">李家瞳村</view>
+        <image class="travel_item_img" src="/pages/index/src/travel2_cover.jpg"></image>
+      </view>
+    </view>
+  </view>
+  <view class="share">
+    <text class="share_title travel_title">攻略日志</text>
+    <view class="share_item_container">
+      <view class="share_item">
+        <image class="share_item_img" src="/pages/index/src/share1.jpg"></image>
+        <view class="share_item_text">绝美莲花池与奇妙悬空壶</view>
+      </view>
+      <view class="share_item">
+        <image class="share_item_img" src="/pages/index/src/share2.jpg"></image>
+        <view class="share_item_text">宁谧的天鹅湖</view>
+      </view>
+    </view>
+  </view>
+  <view id="0" class="swiper_title {{activeClass == 0 ? 'swiper_active' : ''}}" bind:tap="tabHandler">旅行热点</view>
+  <view id="1" class="swiper_title {{activeClass == 1 ? 'swiper_active' : ''}}" bind:tap="tabHandler">旅游资讯</view>
+  <swiper class="swiper1" current="{{curIndex}}" bind:tap="tabHandler" duration="0">
+    <swiper-item style="pointer-events: none;">
+      <view class="rtcls" style="pointer-events: auto;" bind:tap="toLxrd1">
+        <view style="display: inline-block;">
+          <view class="rtcls_title">智秧社 · 韩家窝村</view>
+          <view class="rtcls_pre">韩家窝村明前建村，旧属淄川县，现属淄博市周村区南 . . .</view>
+        </view>
+        <image class="rtcls_img" src="/pages/index/src/lxrd1_cover.jpg"></image>
+      </view>
+      <view class="breakline"></view>
+    </swiper-item>
+    <swiper-item>
+      <view class="rtcls" style="pointer-events: auto;" bind:tap="toLyzx1">
+        <view style="display: inline-block;">
+          <view class="rtcls_title">李家瞳村</view>
+          <view class="rtcls_pre">首批中国传统古村落， 活着的明清风格古建筑群。</view>
+        </view>
+        <image class="rtcls_img" src="/pages/lyzx1/src/img1.jpg"></image>
+      </view>
+      <view class="breakline"></view>
+    </swiper-item>
+  </swiper>
+  <view class="copyright">
+    <view class="line"></view>
+    <view class="producer">Produced by Perry Kum</view>
+  </view>
+</view>

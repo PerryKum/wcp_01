@@ -1,0 +1,26 @@
+<!--pages/shows1/shows1.wxml-->
+<view class="shows_contaner">
+  <view class="swiper_container">
+    <swiper class="show_swiper" indicator-dots="true" duration="300" easing-function="linear" loop="true">
+      <swiper-item>
+        <image src="/pages/shows1/src/img1.jpg" style="width: 100%; height: 100%;"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/pages/shows1/src/img2.jpg" style="width: 100%; height: 100%;"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/pages/shows1/src/img3.jpg" style="width: 100%; height: 100%;"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="title">韩家窝村</view>
+  <view class="details">
+    <view class="details_title">详情</view>
+    <view class="line"></view>
+    <view class="details_info">韩家窝村位于山东省淄博市周村区东南5公里，南郊镇西南部，全村共有住户343户，农村人口1050人。墨水河畔，四面环山的小山村，这里曾是韩氏显族的发家之地，曾是孝子董永卖身葬父的地方。小村古迹历经数百年历史洪流的冲刷，断壁残垣中，今人探索古村落保护与开发的新路。2015年，韩家窝村被评定为山东省民俗文化村，2016年被列入山东省省级传统古村落名录。2019年10月22日，韩家窝村被授予“山东省森林村居”称号。2019年12月31日，入选第二批国家森林乡村名单。</view>
+  </view>
+  <view class="copyright">
+    <view class="line"></view>
+    <view class="producer">Produced by Perry Kum</view>
+  </view>
+</view>

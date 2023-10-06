@@ -1,0 +1,190 @@
+/* pages/index/index.wxss */
+.cover {
+  width: 100%;
+}
+
+.note {
+  position: relative;
+  top: 30rpx;
+  margin-left: 5%;
+  width: 90%;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgb(160, 160, 160);
+}
+
+.note_title {
+  font-weight: 600;
+  font-size: larger;
+  padding: 20px;
+  padding-top: 0 !important;
+  padding-bottom: 10px !important;
+}
+
+.note_content {
+  color: rgb(110, 110, 110);
+  padding: 0 30px;
+  padding-bottom: 20px !important;
+}
+
+.note_svg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='16' fill='rgb(200,200,200)' class='bi bi-quote' viewBox='0 0 16 16'%3E %3Cpath d='M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z'/%3E %3C/svg%3E");
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.shows_item {
+  position: relative;
+  width: 44%;
+  height: 140px;
+  display: inline-block;
+  margin-left: 4%;
+  border-radius: 5px;
+  top: 40px;
+  box-shadow: 2px 2px 3px rgb(160, 160, 160);
+  margin-bottom: 70px;
+}
+
+.shows_item_info {
+  position: absolute;
+  background-color: white;
+  top: 60%;
+  width: 100%;
+  height: 40%;
+  border-radius: 0 0 5px 5px;
+}
+
+.travel_title {
+  font-weight: 600;
+  font-size: larger;
+  margin-left: 5%;
+}
+
+.travel_title_more {
+  font-size: large;
+  margin-left: 60%;
+  color: rgba(160, 160, 160, 0.9);
+}
+
+.travel_item {
+  width: 44%;
+  height: 120px;
+  position: relative;
+  display: inline-block;
+  margin-left: 4%;
+  border-radius: 5px;
+  top: 20px;
+  margin-bottom: 60px;
+}
+
+.travel_item_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.travel_item_info {
+  position: absolute;
+  background-color: rgba(160, 160, 160, 0.5);
+  top: 70%;
+  width: 100%;
+  height: 30%;
+  border-radius: 0 0 5px 5px;
+  z-index: 99;
+  font-size: large;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  line-height: 200%;
+}
+
+.share_item {
+  position: relative;
+  width: 44%;
+  margin-left: 4%;
+  display: inline-block;
+  vertical-align: top;
+  height: 200px;
+}
+
+.share_item_img {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+  top: 20px;
+}
+
+.share_item_text {
+  position: relative;
+  width: 94%;
+  height: 20px;
+  top: 25px;
+  margin: 0 3%;
+  font-size: small;
+  word-wrap: break-word;
+}
+
+.swiper_title {
+  position: relative;
+  display: inline;
+  margin-left: 2%;
+  top: 20px;
+  padding-left: 4%;
+  font-size: medium;
+  color: rgb(110, 110, 110);
+}
+
+.swiper_active {
+  font-size: larger !important;
+  font-weight: 600;
+  color: black !important;
+  text-decoration: underline orange;
+}
+
+.swiper1 {
+  position: relative;
+  width: 100%;
+  height: 210px;
+  margin-top: 40px;
+  pointer-events: none;
+}
+
+.rtcls {
+  width: 100%;
+  height: 100px;
+}
+
+.breakline {
+  width: 94%;
+  margin: 4px 0;
+  margin-left: 2% !important;
+  height: 2px;
+  background: rgba(160, 160, 160, 0.1);
+}
+
+.rtcls_title {
+  margin: 5px 15px;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.rtcls_pre {
+  margin: 10px 15px;
+  color: rgb(160, 160, 160);
+  width: 60%;
+}
+
+.rtcls_img {
+  position: absolute;
+  width: 30%;
+  height: 80px;
+  display: inline-block;
+  left: 65%;
+  margin-top: 10px;
+  border-radius: 10px;
+  vertical-align: top;
+}

@@ -1,0 +1,16 @@
+<!--pages/lyzx1/lyzx1.wxml-->
+<view class="shows_contaner">
+  <view class="rtcl_info">
+    <view class="rtcl_title">李家瞳村</view>
+    <image class="img" src="/pages/lyzx1/src/img1.jpg" mode="widthFix"></image>
+    <view class="rtcl_text">首批中国传统古村落， 活着的明清风格古建筑群。李家疃是幸运留存下来的为数不多的古村镇之一，她坐落在淄博市周村区王村镇东南，与章丘市接壤，既有古村落的古雅，又没有经过商业化的洗礼。</view>
+    <view class="rtcl_text">这里有建于明清时期的庭院，保卫村子的厚实围墙的残垣断壁，村前村后的花园，古貌犹存，院落古朴，民风淳厚，历尽风雨沧桑的老人在讲述着曾经的过往，李家疃以自己的节奏和步调自成一个不同的世界。</view>
+    <image class="img" src="/pages/lyzx1/src/img2.jpg" mode="widthFix"></image>
+    <view class="rtcl_text">李家疃村的民居建筑的群落性保护的完整性和活态性可以说是它最大的特色，村子现保留老房屋约200余间，有一部分在原有的基础上进行了改造，一部分仍保留原样，而且大多数仍然在发挥着居住功能，这就对房屋的保护起到了良好的促进作用。</view>
+    <view class="rtcl_text">尽管古建筑经历岁月的沧桑变得有些破败，但斑驳厚重的青石院墙，古朴大气的门庭院洞，精刻细琢的房檐砖雕仍能让人深切感受到村子曾经的繁华盛景。</view>
+  </view>
+</view>
+<view class="copyright">
+  <view class="line"></view>
+  <view class="producer">Produced by Perry Kum</view>
+</view>

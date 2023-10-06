@@ -1,0 +1,20 @@
+<!--pages/destination/destination.wxml-->
+<view class="container_main">
+  <image class="cover" src="/pages/destination/src/cover.jpg"></image>
+  <view class="des">
+    <view class="des_title">目的地</view>
+    <view class="line"></view>
+    <view class="des_item" bind:tap="toShow1">
+      <view class="des_item_info">韩家窝村</view>
+      <image class="des_item_img" src="/pages/index/src/travel1_cover.jpg"></image>
+    </view>
+    <view class="des_item" bind:tap="toShow2">
+      <view class="des_item_info">李家瞳村</view>
+      <image class="des_item_img" src="/pages/index/src/travel2_cover.jpg"></image>
+    </view>
+  </view>
+</view>
+<view class="copyright">
+  <view class="line"></view>
+  <view class="producer">Produced by Perry Kum</view>
+</view>
